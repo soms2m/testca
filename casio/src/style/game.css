@@ -1,0 +1,41 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner, .login-popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.login-popup-inner {
+    height: 400px;
+    color: black;
+}
+
+.login-popup-inner input {
+    width: 400px;
+}
+.login-popup-inner .password {
+    width: 400px;
+}
+.popup-content {
+    font-size: 300px;
+    color: red;
+}
+
+.popup-buttons button {
+    margin: 10px;
+    padding: 10px;
+}
